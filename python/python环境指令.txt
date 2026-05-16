@@ -1,0 +1,5 @@
+python -m venv venv
+.\venv\Scripts\activate.bat
+pip show pyautogui opencv-python pywin32
+
+487

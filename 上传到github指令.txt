@@ -1,0 +1,23 @@
+上传
+# 初始化本地 Git 仓库
+git init
+
+# 关联你的 GitHub 仓库
+git remote add origin https://github.com/namemafu/Namemafu.github.io.git
+
+# 把文件添加到暂存区
+git add index.html
+
+# 提交修改（写个提交说明，比如"add index.html"）
+git commit -m "add index.html"
+
+# 把分支名改成 main（GitHub 默认分支）
+git branch -M main
+
+# 推送到 GitHub 仓库
+git push -u origin main
+
+更新
+git add .
+git commit -m "更新网页内容"
+git push
